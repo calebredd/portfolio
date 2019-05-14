@@ -147,170 +147,172 @@ body {
 
 .container {
   width: 97vw;
-}
 
-header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-}
 
-h1 {
-  font-size: 35px;
-  font-weight: bolder;
-}
-
-h3 {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-h4 {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-p {
-  font-size: 18px;
-}
-
-img {
-  margin: 0px 1%;
-  height: 15vw;
-  display: inline;
-}
-
-.contact-info {
-  display: flex;
-  align-items: center;
-}
-
-.right-header {
-  font-weight: bolder;
-  padding: 10px;
-  line-height: 30px;
-}
-
-.center {
-  width: 30vw;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  text-align: center;
-}
-
-.label {
-  display: none;
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  padding-right: 5%;
-
-  a {
-    text-decoration: none;
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
   }
 
-  a:hover,
-  .icon:hover {
-    color: red;
-    border: none;
+  h1 {
+    font-size: 35px;
+    font-weight: bolder;
   }
 
-  nav-item {
-    margin: 12px;
+  h3 {
+    font-size: 30px;
+    font-weight: bold;
   }
-}
 
-.tabs a {
-  color: black;
-  font-weight: bold;
-  border: 2px solid gray;
-  border-radius: 10px;
-  box-shadow: -5px 5px 5px gray;
-  justify-content: center;
-  padding: 5px;
-}
+  h4 {
+    font-weight: bold;
+    font-size: 20px;
+  }
 
-.icons {
-  justify-content: space-between;
+  p {
+    font-size: 18px;
+  }
 
-  .fab {
+  img {
+    margin: 0px 1%;
+    height: 15vw;
+    display: inline;
+  }
+
+  .contact-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .right-header {
+    font-weight: bolder;
+    padding: 10px;
+    line-height: 30px;
+  }
+
+  .center {
+    width: 30vw;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .label {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 5%;
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover,
+    .icon:hover {
+      color: red;
+      border: none;
+    }
+
+    nav-item {
+      margin: 12px;
+    }
+  }
+
+  .tabs a {
     color: black;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px gray;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .icons {
+    justify-content: space-between;
+
+    .fab {
+      color: black;
+      background: lightgray;
+    }
+
+    .icon {
+      font-size: 30px;
+      border-radius: 10px;
+    }
+  }
+
+  .body-background {
+    background-image: url("/pictures/AviatorCLub.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    opacity: .25;
+    height: 80%;
+    background-size: 100vw;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    margin-top: -15%;
+  }
+
+  .main-content {
+    width: 90%;
+    margin: auto;
+
+    section ul,
+    section h4 {
+      margin: 10px 8%;
+    }
+
+    section p {
+      margin: 10px 5%;
+    }
+  }
+
+  .frontend,
+  .backend {
+    margin: 10px 8%;
+    flex-direction: column;
+    display: inline-flex;
+  }
+
+  .active a {
+    color: red;
     background: lightgray;
   }
 
-  .icon {
-    font-size: 30px;
-    border-radius: 10px;
-  }
-}
+  .active a:hover {
+    color: red;
+    border: 2px solid gray;
 
-.body-background {
-  background-image: url("/pictures/AviatorCLub.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  opacity: .25;
-  height: 80%;
-  background-size: 100vw;
-  position: fixed;
-  width: 100%;
-  z-index: -1;
-  margin-top: -15%;
-}
-
-.main-content {
-  width: 90%;
-  margin: auto;
-
-  section ul,
-  section h4 {
-    margin: 10px 8%;
   }
 
-  section p {
-    margin: 10px 5%;
+  form {
+    width: 35%;
+    padding: 5px 25px;
+    margin: auto auto;
+    line-height: 30px;
+    font-weight: bolder;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: solid 5px black;
+    text-align: right;
+
+    input {
+      border: 2px solid gray;
+      border-radius: 5px;
+      height: 30px;
+      font-weight: bolder;
+      font-size: 18px;
+    }
+
   }
-}
-
-.frontend,
-.backend {
-  margin: 10px 8%;
-  flex-direction: column;
-  display: inline-flex;
-}
-
-.active a {
-  color: red;
-  background: lightgray;
-}
-
-.active a:hover {
-  color: red;
-  border: 2px solid gray;
-
-}
-
-form {
-  width: 35%;
-  padding: 5px 25px;
-  margin:auto auto;
-  line-height:30px;
-  font-weight:bolder;
-  background:red;
-  color:white;
-  font-size:18px;
-  border-radius:20px;
-  border:solid 5px black;
-  text-align: right;
-  input{
-    border:2px solid gray;
-    border-radius:5px;
-    height:30px;
-    font-weight:bolder;
-    font-size:18px;
-  }
-
 }
