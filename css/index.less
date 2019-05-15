@@ -147,6 +147,7 @@ body {
 
 .container {
   width: 97vw;
+  margin: auto;
 
 
   header {
@@ -161,8 +162,13 @@ body {
     font-weight: bolder;
   }
 
-  h3 {
+  h2 {
     font-size: 30px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 25px;
     font-weight: bold;
   }
 
@@ -179,6 +185,8 @@ body {
     margin: 0px 1%;
     height: 15vw;
     display: inline;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
   }
 
   .contact-info {
@@ -203,7 +211,7 @@ body {
     display: none;
   }
 
-  nav {
+  .navbars nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -227,22 +235,17 @@ body {
   .tabs a {
     color: black;
     font-weight: bold;
-    border: 2px solid gray;
+    border: 2px solid black;
     border-radius: 10px;
-    box-shadow: -5px 5px 5px gray;
+    box-shadow: 5px 5px 5px gray;
     justify-content: center;
     padding: 5px;
   }
 
   .icons {
-    justify-content: space-between;
-
     .fab {
       color: black;
       background: lightgray;
-    }
-
-    .icon {
       font-size: 30px;
       border-radius: 10px;
     }
@@ -260,6 +263,32 @@ body {
     section p {
       margin: 10px 5%;
     }
+
+    .about-box-content {
+      display: flex;
+      padding: 10px;
+
+      img {
+        margin: 10px;
+      }
+
+      p {
+        padding: 10px;
+      }
+    }
+  }
+
+  .box {
+    background: lightgray;
+    border: solid 3px red;
+    box-shadow: 8px 8px 8px gray;
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 10px;
+
+    h2 {
+      text-align: center;
+    }
   }
 
   .frontend,
@@ -272,6 +301,7 @@ body {
   .active a {
     color: red;
     background: lightgray;
+    border: none;
   }
 
   .active a:hover {
@@ -280,9 +310,40 @@ body {
 
   }
 
+  footer {
+    width: 100%;
+
+    nav,
+    .copyright {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      line-height: 30px;
+      font-size: 18px;
+
+      * {
+        margin: 5px 10px;
+      }
+
+    }
+
+    nav .icon {
+      font-size: 30px;
+      border-radius: 20px;
+      color: red;
+      background: lightgray;
+    }
+
+    nav .icon:hover {
+      color: black;
+      background: lightgray;
+    }
+  }
+
   form {
-    width: 35%;
-    padding: 5px 25px;
+    width: 80%;
+    padding: 5px 20%;
     margin: auto auto;
     line-height: 30px;
     font-weight: bolder;
@@ -291,29 +352,35 @@ body {
     font-size: 18px;
     border-radius: 20px;
     border: solid 5px black;
-    text-align: right;
+    text-align: left;
 
     input {
       border: 2px solid gray;
       border-radius: 5px;
       height: 30px;
+      width:100%;
       font-weight: bolder;
       font-size: 18px;
     }
 
-  }
-}
+    textarea {
+      width: 100%;
+    }
 
-.body-background {
-  background: red;
-  background-image: url("/pictures/AviatorCLub.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  opacity: .25;
-  height: 80%;
-  background-size: 100vw;
-  position: fixed;
-  width: 100%;
-  z-index: -1;
-  margin-top: -15%;
+  }
+
+  .body-background {
+    background: red;
+    background-image: url("/pictures/AviatorCLub.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    opacity: .25;
+    height: 80%;
+    background-size: 100%;
+    position: fixed;
+    margin-left: -20px;
+    width: 100%;
+    z-index: -1;
+    margin-top: -15%;
+  }
 }

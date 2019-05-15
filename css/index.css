@@ -136,6 +136,7 @@ body {
 }
 .container {
   width: 97vw;
+  margin: auto;
 }
 .container header {
   width: 100%;
@@ -147,8 +148,12 @@ body {
   font-size: 35px;
   font-weight: bolder;
 }
-.container h3 {
+.container h2 {
   font-size: 30px;
+  font-weight: bold;
+}
+.container h3 {
+  font-size: 25px;
   font-weight: bold;
 }
 .container h4 {
@@ -162,6 +167,8 @@ body {
   margin: 0px 1%;
   height: 15vw;
   display: inline;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
 }
 .container .contact-info {
   display: flex;
@@ -181,40 +188,35 @@ body {
 .container .label {
   display: none;
 }
-.container nav {
+.container .navbars nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   padding-right: 5%;
 }
-.container nav a {
+.container .navbars nav a {
   text-decoration: none;
 }
-.container nav a:hover,
-.container nav .icon:hover {
+.container .navbars nav a:hover,
+.container .navbars nav .icon:hover {
   color: red;
   border: none;
 }
-.container nav nav-item {
+.container .navbars nav nav-item {
   margin: 12px;
 }
 .container .tabs a {
   color: black;
   font-weight: bold;
-  border: 2px solid gray;
+  border: 2px solid black;
   border-radius: 10px;
-  box-shadow: -5px 5px 5px gray;
+  box-shadow: 5px 5px 5px gray;
   justify-content: center;
   padding: 5px;
-}
-.container .icons {
-  justify-content: space-between;
 }
 .container .icons .fab {
   color: black;
   background: lightgray;
-}
-.container .icons .icon {
   font-size: 30px;
   border-radius: 10px;
 }
@@ -229,6 +231,27 @@ body {
 .container .main-content section p {
   margin: 10px 5%;
 }
+.container .main-content .about-box-content {
+  display: flex;
+  padding: 10px;
+}
+.container .main-content .about-box-content img {
+  margin: 10px;
+}
+.container .main-content .about-box-content p {
+  padding: 10px;
+}
+.container .box {
+  background: lightgray;
+  border: solid 3px red;
+  box-shadow: 8px 8px 8px gray;
+  border-radius: 5px;
+  margin: 20px 10px;
+  padding: 10px;
+}
+.container .box h2 {
+  text-align: center;
+}
 .container .frontend,
 .container .backend {
   margin: 10px 8%;
@@ -238,14 +261,41 @@ body {
 .container .active a {
   color: red;
   background: lightgray;
+  border: none;
 }
 .container .active a:hover {
   color: red;
   border: 2px solid gray;
 }
+.container footer {
+  width: 100%;
+}
+.container footer nav,
+.container footer .copyright {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 30px;
+  font-size: 18px;
+}
+.container footer nav *,
+.container footer .copyright * {
+  margin: 5px 10px;
+}
+.container footer nav .icon {
+  font-size: 30px;
+  border-radius: 20px;
+  color: red;
+  background: lightgray;
+}
+.container footer nav .icon:hover {
+  color: black;
+  background: lightgray;
+}
 .container form {
-  width: 35%;
-  padding: 5px 25px;
+  width: 80%;
+  padding: 5px 20%;
   margin: auto auto;
   line-height: 30px;
   font-weight: bolder;
@@ -254,24 +304,29 @@ body {
   font-size: 18px;
   border-radius: 20px;
   border: solid 5px black;
-  text-align: right;
+  text-align: left;
 }
 .container form input {
   border: 2px solid gray;
   border-radius: 5px;
   height: 30px;
+  width: 100%;
   font-weight: bolder;
   font-size: 18px;
 }
-.body-background {
+.container form textarea {
+  width: 100%;
+}
+.container .body-background {
   background: red;
   background-image: url("/pictures/AviatorCLub.jpg");
   background-position: top;
   background-repeat: no-repeat;
   opacity: .25;
   height: 80%;
-  background-size: 100vw;
+  background-size: 100%;
   position: fixed;
+  margin-left: -20px;
   width: 100%;
   z-index: -1;
   margin-top: -15%;
