@@ -153,234 +153,270 @@ body {
   header {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
-  }
 
-  h1 {
-    font-size: 35px;
-    font-weight: bolder;
-  }
+    @media (max-width: 800px) {
+      flex-direction: column;
 
-  h2 {
-    font-size: 30px;
-    font-weight: bold;
-  }
+      .contact-info {
+        width: 100%;
+        display: inline-flex;
 
-  h3 {
-    font-size: 25px;
-    font-weight: bold;
-  }
-
-  h4 {
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 18px;
-  }
-
-  img {
-    margin: 0px 1%;
-    height: 15vw;
-    display: inline;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px gray;
-  }
-
-  .contact-info {
-    display: flex;
-    align-items: center;
-  }
-
-  .right-header {
-    font-weight: bolder;
-    padding: 10px;
-    line-height: 30px;
-  }
-
-  .center {
-    width: 30vw;
-    font-size: 2.5rem;
-    font-weight: bolder;
-    text-align: center;
-  }
-
-  .label {
-    display: none;
-  }
-
-  .navbars nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding-right: 5%;
-
-    a {
-      text-decoration: none;
-    }
-
-    a:hover,
-    .icon:hover {
-      color: red;
-      border: none;
-    }
-
-    nav-item {
-      margin: 12px;
-    }
-  }
-
-  .tabs a {
-    color: black;
-    font-weight: bold;
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px gray;
-    justify-content: center;
-    padding: 5px;
-  }
-
-  .icons {
-    .fab {
-      color: black;
-      background: lightgray;
-      font-size: 30px;
-      border-radius: 10px;
-    }
-  }
-
-  .main-content {
-    width: 90%;
-    margin: auto;
-
-    section ul,
-    section h4 {
-      margin: 10px 8%;
-    }
-
-    section p {
-      margin: 10px 5%;
-    }
-
-    .about-box-content {
-      display: flex;
-      padding: 10px;
-
-      img {
-        margin: 10px;
+        img {
+          display: none;
+        }
       }
 
-      p {
-        padding: 10px;
+      .center {
+        display: inline;
+        width: 100%;
       }
     }
-  }
 
-  .box {
-    background: lightgray;
-    border: solid 3px red;
-    box-shadow: 8px 8px 8px gray;
-    border-radius: 5px;
-    margin: 20px 10px;
-    padding: 10px;
+    @media (max-width:650px) {
+      * {
+        flex-wrap: wrap;
+      }
 
-    h2 {
-      text-align: center;
     }
   }
+}
 
-  .frontend,
-  .backend {
-    margin: 10px 8%;
-    flex-direction: column;
-    display: inline-flex;
+h1 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  margin: 0px 1%;
+  height: 15vw;
+  display: inline;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.right-header {
+  font-weight: bolder;
+  padding: 10px;
+  line-height: 30px;
+}
+
+.center {
+  width: 30vw;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.label {
+  display: none;
+}
+
+.navbars nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 5%;
+
+  a {
+    text-decoration: none;
   }
 
-  .active a {
+  a:hover,
+  .icon:hover {
     color: red;
-    background: lightgray;
     border: none;
   }
 
-  .active a:hover {
-    color: red;
-    border: 2px solid gray;
-
+  nav-item {
+    margin: 12px;
   }
 
-  footer {
+  @media (max-width:800px) {
+    display: inline-flex;
+    flex-direction: row;
+  }
+}
+
+.tabs a {
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  justify-content: center;
+  padding: 5px;
+}
+
+.icons {
+  .fab {
+    color: black;
+    background: lightgray;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+}
+
+.main-content {
+  width: 90%;
+  margin: auto;
+
+  section ul,
+  section h4 {
+    margin: 10px 8%;
+  }
+
+  section p {
+    margin: 10px 5%;
+  }
+
+  .about-box-content {
+    display: flex;
+    padding: 10px;
+
+    img {
+      margin: 10px;
+    }
+
+    p {
+      padding: 10px;
+    }
+  }
+}
+
+.box {
+  background: lightgray;
+  border: solid 3px red;
+  box-shadow: 8px 8px 8px gray;
+  border-radius: 5px;
+  margin: 20px 10px;
+  padding: 10px;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.frontend,
+.backend {
+  margin: 10px 8%;
+  flex-direction: column;
+  display: inline-flex;
+}
+
+.active a {
+  color: red;
+  background: lightgray;
+  border: none;
+}
+
+.active a:hover {
+  color: red;
+  border: 2px solid gray;
+
+}
+
+footer {
+  width: 100%;
+
+  nav,
+  .copyright {
     width: 100%;
-
-    nav,
-    .copyright {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      line-height: 30px;
-      font-size: 18px;
-
-      * {
-        margin: 5px 10px;
-      }
-
-    }
-
-    nav .icon {
-      font-size: 30px;
-      border-radius: 20px;
-      color: red;
-      background: lightgray;
-    }
-
-    nav .icon:hover {
-      color: black;
-      background: lightgray;
-    }
-  }
-
-  form {
-    width: 80%;
-    padding: 5px 20%;
-    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     line-height: 30px;
-    font-weight: bolder;
-    background: red;
-    color: white;
     font-size: 18px;
+
+    * {
+      margin: 5px 10px;
+    }
+
+  }
+
+  nav .icon {
+    font-size: 30px;
     border-radius: 20px;
-    border: solid 5px black;
-    text-align: left;
-
-    input {
-      border: 2px solid gray;
-      border-radius: 5px;
-      height: 30px;
-      width:100%;
-      font-weight: bolder;
-      font-size: 18px;
-    }
-
-    textarea {
-      width: 100%;
-    }
-
+    color: red;
+    background: lightgray;
   }
 
-  .body-background {
-    background: red;
-    background-image: url("/pictures/AviatorCLub.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-    opacity: .25;
-    height: 80%;
-    background-size: 100%;
-    position: fixed;
-    margin-left: -20px;
+  nav .icon:hover {
+    color: black;
+    background: lightgray;
+  }
+}
+
+form {
+  width: 80%;
+  padding: 5px 20%;
+  margin: auto auto;
+  line-height: 30px;
+  font-weight: bolder;
+  background: red;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  border: solid 5px black;
+  text-align: left;
+
+  @media (max-width: 800px) {
+    padding: 10px;
+    width:95%;
+  }
+
+  input {
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 30px;
     width: 100%;
-    z-index: -1;
-    margin-top: -15%;
+    font-weight: bolder;
+    font-size: 18px;
   }
+
+  textarea {
+    width: 100%;
+  }
+
+}
+
+.body-background {
+  background: red;
+  background-image: url("/pictures/AviatorCLub.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  opacity: .25;
+  height: 100%;
+  background-size: 100%;
+  position: fixed;
+  width: 98vw;
+  z-index: -1;
+  margin: -15% auto 0;
+}
 }

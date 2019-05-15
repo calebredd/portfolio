@@ -141,8 +141,30 @@ body {
 .container header {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 10px;
+}
+@media (max-width: 800px) {
+  .container header {
+    flex-direction: column;
+  }
+  .container header .contact-info {
+    width: 100%;
+    display: inline-flex;
+  }
+  .container header .contact-info img {
+    display: none;
+  }
+  .container header .center {
+    display: inline;
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .container header * {
+    flex-wrap: wrap;
+  }
 }
 .container h1 {
   font-size: 35px;
@@ -204,6 +226,12 @@ body {
 }
 .container .navbars nav nav-item {
   margin: 12px;
+}
+@media (max-width: 800px) {
+  .container .navbars nav {
+    display: inline-flex;
+    flex-direction: row;
+  }
 }
 .container .tabs a {
   color: black;
@@ -323,11 +351,10 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   opacity: .25;
-  height: 80%;
+  height: 100%;
   background-size: 100%;
   position: fixed;
-  margin-left: -20px;
-  width: 100%;
+  width: 98vw;
   z-index: -1;
-  margin-top: -15%;
+  margin: -15% auto 0;
 }
