@@ -166,74 +166,74 @@ body {
     flex-wrap: wrap;
   }
 }
-.container h1 {
+h1 {
   font-size: 35px;
   font-weight: bolder;
 }
-.container h2 {
+h2 {
   font-size: 30px;
   font-weight: bold;
 }
-.container h3 {
+h3 {
   font-size: 25px;
   font-weight: bold;
 }
-.container h4 {
+h4 {
   font-weight: bold;
   font-size: 20px;
 }
-.container p {
+p {
   font-size: 18px;
 }
-.container img {
+img {
   margin: 0px 1%;
   height: 15vw;
   display: inline;
   border-radius: 10px;
   box-shadow: 5px 5px 5px gray;
 }
-.container .contact-info {
+.contact-info {
   display: flex;
   align-items: center;
 }
-.container .right-header {
+.right-header {
   font-weight: bolder;
   padding: 10px;
   line-height: 30px;
 }
-.container .center {
+.center {
   width: 30vw;
   font-size: 2.5rem;
   font-weight: bolder;
   text-align: center;
 }
-.container .label {
+.label {
   display: none;
 }
-.container .navbars nav {
+.navbars nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   padding-right: 5%;
 }
-.container .navbars nav a {
+.navbars nav a {
   text-decoration: none;
 }
-.container .navbars nav a:hover,
-.container .navbars nav .icon:hover {
+.navbars nav a:hover,
+.navbars nav .icon:hover {
   color: red;
   border: none;
 }
-.container .navbars nav nav-item {
+.navbars nav nav-item {
   margin: 12px;
 }
 @media (max-width: 800px) {
-  .container .navbars nav {
+  .navbars nav {
     display: inline-flex;
     flex-direction: row;
   }
 }
-.container .tabs a {
+.tabs a {
   color: black;
   font-weight: bold;
   border: 2px solid black;
@@ -242,34 +242,34 @@ body {
   justify-content: center;
   padding: 5px;
 }
-.container .icons .fab {
+.icons .fab {
   color: black;
   background: lightgray;
   font-size: 30px;
   border-radius: 10px;
 }
-.container .main-content {
+.main-content {
   width: 90%;
   margin: auto;
 }
-.container .main-content section ul,
-.container .main-content section h4 {
+.main-content section ul,
+.main-content section h4 {
   margin: 10px 8%;
 }
-.container .main-content section p {
+.main-content section p {
   margin: 10px 5%;
 }
-.container .main-content .about-box-content {
+.main-content .about-box-content {
   display: flex;
   padding: 10px;
 }
-.container .main-content .about-box-content img {
+.main-content .about-box-content img {
   margin: 10px;
 }
-.container .main-content .about-box-content p {
+.main-content .about-box-content p {
   padding: 10px;
 }
-.container .box {
+.box {
   background: lightgray;
   border: solid 3px red;
   box-shadow: 8px 8px 8px gray;
@@ -277,29 +277,29 @@ body {
   margin: 20px 10px;
   padding: 10px;
 }
-.container .box h2 {
+.box h2 {
   text-align: center;
 }
-.container .frontend,
-.container .backend {
+.frontend,
+.backend {
   margin: 10px 8%;
   flex-direction: column;
   display: inline-flex;
 }
-.container .active a {
+.active a {
   color: red;
   background: lightgray;
   border: none;
 }
-.container .active a:hover {
+.active a:hover {
   color: red;
   border: 2px solid gray;
 }
-.container footer {
+footer {
   width: 100%;
 }
-.container footer nav,
-.container footer .copyright {
+footer nav,
+footer .copyright {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -307,23 +307,23 @@ body {
   line-height: 30px;
   font-size: 18px;
 }
-.container footer nav *,
-.container footer .copyright * {
+footer nav *,
+footer .copyright * {
   margin: 5px 10px;
 }
-.container footer nav .icon {
+footer nav .icon {
   font-size: 30px;
   border-radius: 20px;
   color: red;
   background: lightgray;
 }
-.container footer nav .icon:hover {
+footer nav .icon:hover {
   color: black;
   background: lightgray;
 }
-.container form {
+form {
   width: 80%;
-  padding: 5px 20%;
+  padding: 5px;
   margin: auto auto;
   line-height: 30px;
   font-weight: bolder;
@@ -334,7 +334,12 @@ body {
   border: solid 5px black;
   text-align: left;
 }
-.container form input {
+@media (max-width: 800px) {
+  form {
+    width: 50%;
+  }
+}
+form input {
   border: 2px solid gray;
   border-radius: 5px;
   height: 30px;
@@ -342,12 +347,12 @@ body {
   font-weight: bolder;
   font-size: 18px;
 }
-.container form textarea {
+form textarea {
   width: 100%;
 }
-.container .body-background {
+.body-background {
   background: red;
-  background-image: url("/pictures/AviatorCLub.jpg");
+  background-image: url("https://github.com/calebredd/Preprocessing-I/blob/master/pictures/AviatorCLub.jpg?raw=true");
   background-position: top;
   background-repeat: no-repeat;
   opacity: .25;
