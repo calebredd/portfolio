@@ -1,9 +1,3 @@
-// Is this working?
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html,
 body,
 div,
@@ -145,44 +139,6 @@ body {
   height: 100%;
 }
 
-.container {
-  width: 97vw;
-  margin: auto;
-
-
-  header {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px;
-
-    @media (max-width: 800px) {
-      flex-direction: column;
-
-      .contact-info {
-        width: 100%;
-        display: inline-flex;
-
-        img {
-          display: none;
-        }
-      }
-
-      .center {
-        display: inline;
-        width: 100%;
-      }
-    }
-
-    @media (max-width:650px) {
-      * {
-        flex-wrap: wrap;
-      }
-
-    }
-  }
-}
 
 h1 {
   font-size: 35px;
@@ -210,15 +166,27 @@ p {
 
 img {
   margin: 0px 1%;
-  height: 15vw;
   display: inline;
+  height: 15vw;
   border-radius: 10px;
   box-shadow: 5px 5px 5px gray;
 }
 
 .contact-info {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.contact {
+  display: flex;
+  /* align-items: center; */
+}
+
+.left-header {
+  font-weight: bolder;
+  padding: 10px;
+  line-height: 30px;
 }
 
 .right-header {
@@ -227,87 +195,93 @@ img {
   line-height: 30px;
 }
 
+.right-header a {
+  text-decoration: none;
+  color: black;
+}
+
+.right-header a:hover {
+  color: red;
+}
+
 .center {
   width: 30vw;
   font-size: 2.5rem;
   font-weight: bolder;
   text-align: center;
+  vertical-align: center;
 }
 
 .label {
   display: none;
 }
 
-.navbars nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  padding-right: 5%;
-
-  a {
-    text-decoration: none;
-  }
-
-  a:hover,
-  .icon:hover {
-    color: red;
-    border: none;
-  }
-
-  nav-item {
-    margin: 12px;
-  }
-
-  @media (max-width:800px) {
-    display: inline-flex;
-    flex-direction: row;
-  }
-}
-
-.tabs a {
-  color: black;
-  font-weight: bold;
-  border: 2px solid black;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px gray;
-  justify-content: center;
-  padding: 5px;
-}
-
 .icons {
-  .fab {
-    color: black;
-    background: lightgray;
-    font-size: 30px;
-    border-radius: 10px;
-  }
+  width: 25vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons .fab {
+  color: black;
+  background: lightgray;
+  font-size: 30px;
+  border-radius: 10px;
+
+}
+
+.fab:hover {
+  color: red;
 }
 
 .main-content {
   width: 90%;
-  margin: auto;
+  margin: 20px auto;
+}
 
-  section ul,
-  section h4 {
-    margin: 10px 8%;
-  }
+.main-content article header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
 
-  section p {
-    margin: 10px 5%;
-  }
+.main-content article {
+  margin: 30px auto;
+  max-width: 1000px;
+  box-shadow: 0px 0px 10px black;
+}
 
-  .about-box-content {
-    display: flex;
-    padding: 10px;
+.main-content article a {
+  text-decoration: none;
+  color: black;
+  text-decoration-line: underline;
+}
 
-    img {
-      margin: 10px;
-    }
+.main-content article a:hover {
+  color: red;
+}
 
-    p {
-      padding: 10px;
-    }
-  }
+.main-content section ul,
+.main-content section h4 {
+  margin: 10px 8%;
+}
+
+.main-content section p {
+  margin: 10px 5%;
+}
+
+.main-content .about-box-content {
+  display: flex;
+  padding: 10px;
+}
+
+.main-content .about-box-content img {
+  margin: 10px;
+}
+
+.main-content .about-box-content p {
+  padding: 10px;
 }
 
 .box {
@@ -317,10 +291,10 @@ img {
   border-radius: 5px;
   margin: 20px 10px;
   padding: 10px;
+}
 
-  h2 {
-    text-align: center;
-  }
+.box h2 {
+  text-align: center;
 }
 
 .frontend,
@@ -339,38 +313,38 @@ img {
 .active a:hover {
   color: red;
   border: 2px solid gray;
-
 }
 
-footer {
+.footer-icons {
   width: 100%;
+  margin-top: 30px;
+}
 
-  nav,
-  .copyright {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    line-height: 30px;
-    font-size: 18px;
+footer nav,
+footer .copyright {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 30px;
+  font-size: 18px;
+}
 
-    * {
-      margin: 5px 10px;
-    }
+footer nav *,
+footer .copyright * {
+  margin: 5px 10px;
+}
 
-  }
+footer nav .icon {
+  font-size: 30px;
+  border-radius: 20px;
+  color: red;
+  background: lightgray;
+}
 
-  nav .icon {
-    font-size: 30px;
-    border-radius: 20px;
-    color: red;
-    background: lightgray;
-  }
-
-  nav .icon:hover {
-    color: black;
-    background: lightgray;
-  }
+footer nav .icon:hover {
+  color: black;
+  background: lightgray;
 }
 
 form {
@@ -379,42 +353,41 @@ form {
   margin: auto auto;
   line-height: 30px;
   font-weight: bolder;
-  background: rgba(255, 0, 0, .9);
+  background: rgba(255, 0, 0, 0.9);
   color: white;
   font-size: 18px;
   border-radius: 20px;
   border: solid 5px black;
   text-align: left;
+}
 
-  @media (max-width: 800px) {
+@media (max-width: 800px) {
+  form {
     width: 50%;
   }
+}
 
-  input {
-    border: 2px solid gray;
-    border-radius: 5px;
-    height: 30px;
-    width: 100%;
-    font-weight: bolder;
-    font-size: 18px;
-  }
+form input {
+  border: 2px solid gray;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 18px;
+}
 
-  textarea {
-    width: 100%;
-  }
-
+form textarea {
+  width: 100%;
 }
 
 .body-background {
   background: red;
   background-image: url("https://github.com/calebredd/Preprocessing-I/blob/master/pictures/AviatorCLub.jpg?raw=true");
-  background-position: top;
   background-repeat: no-repeat;
+  background-size: cover;
   opacity: .25;
-  height: 100%;
-  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
   position: fixed;
-  width: 98vw;
   z-index: -1;
-  margin: -15% auto 0;
 }
