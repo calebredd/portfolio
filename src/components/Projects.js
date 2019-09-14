@@ -12,6 +12,21 @@ export default function Projects() {
       <div className="main-content">
         <article>
           <header>
+            <span className="date">September 2019</span>
+            <h2>
+              <a href="https://mlbtracker.netlify.com/">
+                Baseball Game Tracker
+              </a>
+            </h2>
+          </header>
+          <p>
+            Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
+            primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
+            mattis sagittis magna etiam.
+          </p>
+        </article>
+        <article>
+          <header>
             <span className="date">August 2019</span>
             <h2>
               <a href="https://haircareapp.netlify.com/Login">

@@ -1,5 +1,4 @@
 import React from "react";
-
 export const contact = (
   <div className="contact">
     <div className="left-header">
@@ -13,10 +12,17 @@ export const contact = (
       <address>
         Tempe, AZ 85282
         <br />
-        (928) 302-8624
+        <a href="call:+19283028624">(928) 302-8624</a>
         <br />
         <a href="mailto:calebtheredd@gmail.com">calebtheredd@gmail.com</a>
       </address>
+      <a target="_blank" href="CalebReddResume.pdf">
+        Printable Resumé
+      </a>
+      <br />
+      <a href="CalebReddResume.pdf" download>
+        Download Resumé PDF
+      </a>
     </div>
   </div>
 );

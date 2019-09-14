@@ -195,6 +195,15 @@ img {
   line-height: 30px;
 }
 
+.right-header a {
+  text-decoration: none;
+  color: black;
+}
+
+.right-header a:hover {
+  color: red;
+}
+
 .center {
   width: 30vw;
   font-size: 2.5rem;
@@ -238,8 +247,19 @@ img {
 }
 
 .main-content article {
-  margin: 10px auto;
+  margin: 30px auto;
   max-width: 1000px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.main-content article a {
+  text-decoration: none;
+  color: black;
+  text-decoration-line: underline;
+}
+
+.main-content article a:hover {
+  color: red;
 }
 
 .main-content section ul,
