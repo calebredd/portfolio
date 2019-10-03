@@ -10,7 +10,7 @@ export default function Contact() {
         {icons}
       </section><div className="main-content">
         <form netlify name="contact">
-          Name: <input required type="text" name="name" placeholder"Name" />
+          Name: <input required type="text" name="name" placeholder="Name" />
           <br />
           Company: <input type="text" name="company" placeholder="Company" />
           <br />
