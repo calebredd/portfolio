@@ -21,7 +21,7 @@ export default function Contact() {
           Additional Comments: <br />
           <textarea name="comments" cols="30" rows="10" placeholder="Comments..."></textarea>
           <br/>
-          <Button type="submit">Send</Button>
+          <button type="submit">Send</button>
         </form>
       </div>
     </div>
