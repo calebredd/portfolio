@@ -10,24 +10,18 @@ export default function Contact() {
         {icons}
       </section><div className="main-content">
         <form netlify name="contact">
-          First Name: <input type="text" />
+          Name: <input required type="text" name="name" placeholder"Name" />
           <br />
-          Last Name: <input type="text" />
+          Company: <input type="text" name="company" placeholder="Company" />
           <br />
-          Company: <input type="text" />
+          Email: <input type="email" name="email" placeholder="Email"/>
           <br />
-          Street: <input type="text" />
-          <br />
-          City: <input type="text" />
-          <br />
-          State: <input type="text" />
-          <br />
-          Email: <input type="email" />
-          <br />
-          Phone Number: <input type="number" />
+          Phone Number: <input type="number" name="number" />
           <br />
           Additional Comments: <br />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <textarea name="comments" cols="30" rows="10" placeholder="Comments..."></textarea>
+          <br/>
+          <Button type="submit">Send</Button>
         </form>
       </div>
     </div>
