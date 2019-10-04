@@ -38,7 +38,7 @@ export default function Footer() {
         </nav-item>
       </nav>
       <p className="copyright">
-        <i className="icon fa fa-copyright" aria-hidden="true"></i>ReddWebDev
+        Created By Caleb Redd. Using React. Hosted on Netlify.
       </p>
     </footer>
   );
