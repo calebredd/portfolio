@@ -1,5 +1,4 @@
 import React from "react";
-import "../index.css";
 import { contact, icons } from "./HeaderInfo";
 export default function Projects() {
   return (

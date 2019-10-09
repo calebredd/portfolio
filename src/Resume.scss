@@ -1,0 +1,19 @@
+.box {
+  background: lightgray;
+  border: solid 3px red;
+  box-shadow: 8px 8px 8px gray;
+  border-radius: 5px;
+  margin: 20px 10px;
+  padding: 10px;
+}
+
+.box h2 {
+  text-align: center;
+}
+
+.frontend,
+.backend {
+  margin: 10px 8%;
+  flex-direction: column;
+  display: inline-flex;
+}

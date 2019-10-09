@@ -1,0 +1,32 @@
+form {
+  width: 80%;
+  padding: 5px;
+  margin: auto auto;
+  line-height: 30px;
+  font-weight: bolder;
+  background: rgba(255, 0, 0, 0.9);
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  border: solid 5px black;
+  text-align: left;
+}
+
+@media (max-width: 800px) {
+  form {
+    width: 50%;
+  }
+}
+
+form input {
+  border: 2px solid gray;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+form textarea {
+  width: 100%;
+}

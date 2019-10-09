@@ -5,10 +5,10 @@ import Resume from "./Resume";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
-
+import "../Routes.scss";
 export default function Routes() {
   return (
-    <div>
+    <div className="Routes">
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />

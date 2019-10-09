@@ -1,5 +1,5 @@
 import React from "react";
-import "../index.css";
+import "../Contact.scss";
 import { contact, icons } from "./HeaderInfo";
 export default function Contact() {
   return (
