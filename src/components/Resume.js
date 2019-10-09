@@ -28,7 +28,7 @@ export default function Resume() {
           </ul>
         </section>
         <section className="box languages">
-          <h3>Familiar Languages/Frameworks/OS</h3>
+          <h3>Familiar Languages, Frameworks, OS</h3>
           <ul className="frontend">
             <li>HTML</li>
             <li>CSS</li>

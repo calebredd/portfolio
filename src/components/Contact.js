@@ -12,22 +12,16 @@ export default function Contact() {
       <div className="main-content">
         <form netlify method="POST" name="contact">
           <input type="hidden" name="form-name" value="contact" />
-          Name: <input required type="text" name="name" placeholder="Name" />
-          <br />
-          Company: <input type="text" name="company" placeholder="Company" />
-          <br />
-          Email: <input type="email" name="email" placeholder="Email" />
-          <br />
-          Phone Number: <input placeholder="Number" type="tel" name="phone" />
-          <br />
-          Additional Comments: <br />
+          <input required type="text" name="name" placeholder="Name" />
+          <input type="text" name="company" placeholder="Company" />
+          <input type="email" name="email" placeholder="Email" />
+          <input placeholder="Number" type="tel" name="phone" />
           <textarea
             name="comments"
             cols="30"
             rows="10"
             placeholder="Comments..."
           ></textarea>
-          <br />
           <button type="submit">Send</button>
         </form>
       </div>

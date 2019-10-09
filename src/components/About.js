@@ -1,5 +1,6 @@
 import React from "react";
 import { contact, icons } from "./HeaderInfo";
+import "../Resume.scss";
 export default function About() {
   return (
     <div className="container">
@@ -20,7 +21,7 @@ export default function About() {
           </div>
         </div>
         <div className="box">
-          <h2>HUSBAND & FATHER</h2>
+          <h2>Husband & Father</h2>
           <div className="about-box-content">
             <img src="pictures/ReddFamilyinRed.jpg" alt="" />
             <p>I love my wife. I love my daughter. I love my dog.</p>

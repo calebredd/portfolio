@@ -2,6 +2,20 @@
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
+
+  @media screen and (max-width:700px) {
+    flex-direction: column;
+    align-items: center;
+
+    .contact {
+      flex-direction: column-reverse;
+
+      .left-header img {
+        width: 50%;
+        height: auto;
+      }
+    }
+  }
 }
 
 .contact {
@@ -27,7 +41,7 @@
 }
 
 .right-header a:hover {
-  color: red;
+  color: #D12D32;
 }
 
 // .label {
@@ -38,6 +52,11 @@
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
+
+  @media screen and (max-width:700px) {
+    width: 80%;
+    margin: 10px;
+  }
 }
 
 .icons .icon {
@@ -46,8 +65,12 @@
   background: lightgray;
   font-size: 30px;
   border-radius: 50%;
+
+  @media screen and (max-width:700px) {
+    background: rgb(247, 192, 193);
+  }
 }
 
 .icon:hover {
-  color: red;
+  color: #D12D32;
 }
