@@ -1,6 +1,6 @@
 import React from "react";
 import { contact, icons } from "./HeaderInfo";
-import "../Resume.scss";
+import "../About.scss";
 export default function About() {
   return (
     <div className="container">

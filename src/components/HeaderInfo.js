@@ -17,13 +17,16 @@ export const contact = (
         <br />
         <a href="mailto:calebtheredd@gmail.com">calebtheredd@gmail.com</a>
       </address>
-      <a target="_blank" rel="noopener noreferrer" href="CalebReddResume.pdf">
-        Printable Resumé
-      </a>
-      <br />
-      <a href="CalebReddResume.pdf" download>
-        Download Resumé PDF
-      </a>
+      <p>
+        <a target="_blank" rel="noopener noreferrer" href="CalebReddResume.pdf">
+          Printable Resumé
+        </a>
+      </p>
+      <p>
+        <a href="CalebReddResume.pdf" download>
+          Download Resumé PDF
+        </a>
+      </p>
     </div>
   </div>
 );

@@ -8,6 +8,11 @@ export default function Home() {
         <h2 className="center">Software Engineer</h2>
         {icons}
       </section>
+      <img
+        className="familyPhoto"
+        src="pictures/ReddFamilyinRed.jpg"
+        alt="We love the color Red!"
+      />
     </div>
   );
 }
