@@ -14,6 +14,19 @@ export default function Projects() {
           <header>
             <span className="date">October 2019</span>
             <h2>
+              <a href="https://potluckplan.netlify.com/">Potluck Planner App</a>
+            </h2>
+          </header>
+          <img src="/pictures/PotluckPlanner.png" alt="Potluck Planner" />
+          <p>
+            Collaborated project where users can plan and attend Potluck dinners
+            to share food and company among other food enthusiasts.
+          </p>
+        </article>
+        <article>
+          <header>
+            <span className="date">October 2019</span>
+            <h2>
               <a href="https://1111waxstudioandspa.netlify.com/">
                 11:11 Wax Studio & Spa
               </a>
@@ -41,15 +54,13 @@ export default function Projects() {
           <header>
             <span className="date">August 2019</span>
             <h2>
-              <a href="https://haircareapp.netlify.com/">
-                Hair Care App- Collaborated Project
-              </a>
+              <a href="https://haircareapp.netlify.com/">Hair Care App</a>
             </h2>
           </header>
           <img src="/pictures/HairCareApp.png" alt="Hair Care" />
           <p>
-            Users can create a profile and find a hairstylist for their next
-            treatment.
+            Collaborated project where users can create a profile and find a
+            hairstylist for their next treatment.
           </p>
         </article>
         <article>
@@ -62,7 +73,10 @@ export default function Projects() {
             </h2>
           </header>
           <img src="/pictures/CollegeCalc.png" alt="College Calculator" />
-          <p>Evaluate the Cost of Secondary Education.</p>
+          <p>
+            Collaborated project where users can evaluate the Cost of Secondary
+            Education.
+          </p>
         </article>
         <article>
           <header>
@@ -97,6 +111,48 @@ export default function Projects() {
           </header>
           <img src="/pictures/Responsive.png" alt="Responsive" />
           <p>Project with mobile friendly implementation.</p>
+        </article>
+        <article>
+          <header>
+            <span className="date">January 2019</span>
+            <h2>
+              <a href="https://caleb-yelpcamp-app.herokuapp.com/campgrounds">
+                YelpCamp App
+              </a>
+            </h2>
+          </header>
+          <img src="/pictures/YelpCamp.png" alt="YelpCamp App" />
+          <p>
+            Enables users to add campsites they've visited and share with other
+            outdoor enthusiasts.
+          </p>
+        </article>
+        <article>
+          <header>
+            <span className="date">November 2018</span>
+            <h2>
+              <a href="https://rgbcolorsgame.netlify.com/">RGB Color Game</a>
+            </h2>
+          </header>
+          <img src="/pictures/colorgame.png" alt="RGB Color Game" />
+          <p>
+            Pick among colored squares to guess what the RGB Color value is.
+          </p>
+        </article>
+        <article>
+          <header>
+            <span className="date">December 2017</span>
+            <h2>
+              <a href="https://etchasketchcolor.netlify.com/">
+                Etch-a-Sketch in Color
+              </a>
+            </h2>
+          </header>
+          <img src="/pictures/draw.png" alt="Etch-a-sketch" />
+          <p>
+            Choose a color, move to draw, click to change colors, rinse &
+            repeat.
+          </p>
         </article>
       </div>
     </div>
