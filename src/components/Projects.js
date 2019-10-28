@@ -154,6 +154,18 @@ export default function Projects() {
             repeat.
           </p>
         </article>
+        <article>
+          <header>
+            <span className="date">December 2017</span>
+            <h2>
+              <a href="https://rockbeatsscissors.netlify.com/">
+                Rock, Paper, Scissors!
+              </a>
+            </h2>
+          </header>
+          <img src="/pictures/RockPaperScissors.png" alt="Rock Paper Scissors" />
+          <p>Risk it all against the Computer, first one to 3 wins!</p>
+        </article>
       </div>
     </div>
   );
