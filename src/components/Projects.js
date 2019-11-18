@@ -12,6 +12,19 @@ export default function Projects() {
       <div className="main-content">
         <article>
           <header>
+            <span className="date">November 2019</span>
+            <h2>
+              <a href="https://thecarlot.herokuapp.com/">Car Lot App</a>
+            </h2>
+          </header>
+          <img src="/pictures/carLotApp.png" alt="Potluck Planner" />
+          <p>
+            Fullstack Web App where users can upload cars for sale.
+          </p>
+          <p>Developed with: Node, Express, React, SQL</p>
+        </article>
+        <article>
+          <header>
             <span className="date">October 2019</span>
             <h2>
               <a href="https://potluckplan.netlify.com/">Potluck Planner App</a>
@@ -22,6 +35,7 @@ export default function Projects() {
             Collaborated project where users can plan and attend Potluck dinners
             to share food and company among other food enthusiasts.
           </p>
+          <p>Developed with: React, Sass</p>
         </article>
         <article>
           <header>
@@ -34,6 +48,7 @@ export default function Projects() {
           </header>
           <img src="/pictures/1111WaxStudio.png" alt="11:11" />
           <p>Static website created for a local spa studio in Phoenix, AZ.</p>
+          <p>Developed with: React, Sass</p>
         </article>
         <article>
           <header>
@@ -49,6 +64,7 @@ export default function Projects() {
             App for avid baseball fans to be their own umpire and keep track of
             the game themselves.
           </p>
+          <p>Developed with: React, Sass</p>
         </article>
         <article>
           <header>
@@ -62,6 +78,7 @@ export default function Projects() {
             Collaborated project where users can create a profile and find a
             hairstylist for their next treatment.
           </p>
+          <p>Developed with: React, Sass</p>
         </article>
         <article>
           <header>
@@ -77,6 +94,7 @@ export default function Projects() {
             Collaborated project where users can evaluate the Cost of Secondary
             Education.
           </p>
+          <p>Developed with: Javascript, HTML, Less</p>
         </article>
         <article>
           <header>
@@ -126,6 +144,7 @@ export default function Projects() {
             Enables users to add campsites they've visited and share with other
             outdoor enthusiasts.
           </p>
+          <p>Developed with: MongoDB, Express, Node</p>
         </article>
         <article>
           <header>
@@ -138,6 +157,7 @@ export default function Projects() {
           <p>
             Pick among colored squares to guess what the RGB Color value is.
           </p>
+          <p>Developed with: Javascript, HTML, CSS</p>
         </article>
         <article>
           <header>
@@ -153,6 +173,7 @@ export default function Projects() {
             Choose a color, move to draw, click to change colors, rinse &
             repeat.
           </p>
+          <p>Developed with: Javascript, HTML, CSS</p>
         </article>
         <article>
           <header>
