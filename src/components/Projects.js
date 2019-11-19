@@ -14,7 +14,8 @@ export default function Projects() {
           <header>
             <span className="date">November 2019</span>
             <h2>
-              <a href="https://thecarlot.herokuapp.com/">Car Lot App</a>
+              <a target="_blank"
+                rel="noopener noreferrer" href="https://thecarlot.herokuapp.com/">Car Lot App</a>
             </h2>
           </header>
           <img src="/pictures/carLotApp.png" alt="Potluck Planner" />
@@ -27,7 +28,8 @@ export default function Projects() {
           <header>
             <span className="date">October 2019</span>
             <h2>
-              <a href="https://potluckplan.netlify.com/">Potluck Planner App</a>
+              <a target="_blank"
+                rel="noopener noreferrer" href="https://potluckplan.netlify.com/">Potluck Planner App</a>
             </h2>
           </header>
           <img src="/pictures/PotluckPlanner.png" alt="Potluck Planner" />
@@ -41,7 +43,8 @@ export default function Projects() {
           <header>
             <span className="date">October 2019</span>
             <h2>
-              <a href="https://1111waxstudioandspa.netlify.com/">
+              <a target="_blank"
+                rel="noopener noreferrer" href="https://1111waxstudioandspa.netlify.com/">
                 11:11 Wax Studio & Spa
               </a>
             </h2>
@@ -54,7 +57,8 @@ export default function Projects() {
           <header>
             <span className="date">September 2019</span>
             <h2>
-              <a href="https://mlbtracker.netlify.com/">
+              <a target="_blank"
+                rel="noopener noreferrer" href="https://mlbtracker.netlify.com/">
                 Baseball Game Tracker
               </a>
             </h2>
@@ -70,7 +74,8 @@ export default function Projects() {
           <header>
             <span className="date">August 2019</span>
             <h2>
-              <a href="https://haircareapp.netlify.com/">Hair Care App</a>
+              <a target="_blank"
+                rel="noopener noreferrer" href="https://haircareapp.netlify.com/">Hair Care App</a>
             </h2>
           </header>
           <img src="/pictures/HairCareApp.png" alt="Hair Care" />
@@ -84,7 +89,8 @@ export default function Projects() {
           <header>
             <span className="date">June 2019</span>
             <h2>
-              <a href="https://collegecalculator.netlify.com">
+              <a target="_blank"
+      rel="noopener noreferrer" href="https://collegecalculator.netlify.com">
                 College Calculator
               </a>
             </h2>
@@ -100,7 +106,8 @@ export default function Projects() {
           <header>
             <span className="date">May 2019</span>
             <h2>
-              <a href="https://lambdaui.netlify.com/">HTML/CSS Timed Project</a>
+              <a target="_blank"
+                rel="noopener noreferrer" href="https://lambdaui.netlify.com/">HTML/CSS Timed Project</a>
             </h2>
           </header>
           <img src="/pictures/TimedProject.png" alt="Time Project" />
@@ -110,7 +117,8 @@ export default function Projects() {
           <header>
             <span className="date">April 2019</span>
             <h2>
-              <a href="https://calebredd.github.io/Preprocessing-II/">
+              <a target="_blank"
+                rel="noopener noreferrer" href="https://calebredd.github.io/Preprocessing-II/">
                 Less Compiled Project
               </a>
             </h2>
@@ -122,7 +130,8 @@ export default function Projects() {
           <header>
             <span className="date">April 2019</span>
             <h2>
-              <a href="https://calebredd.github.io/responsive-web-design-I/index.html">
+              <a target="_blank"
+                rel="noopener noreferrer" href="https://calebredd.github.io/responsive-web-design-I/index.html">
                 Responsive Web Design
               </a>
             </h2>
@@ -134,7 +143,8 @@ export default function Projects() {
           <header>
             <span className="date">January 2019</span>
             <h2>
-              <a href="https://caleb-yelpcamp-app.herokuapp.com/campgrounds">
+              <a target="_blank"
+                rel="noopener noreferrer" href="https://caleb-yelpcamp-app.herokuapp.com/campgrounds">
                 YelpCamp App
               </a>
             </h2>
@@ -150,7 +160,8 @@ export default function Projects() {
           <header>
             <span className="date">November 2018</span>
             <h2>
-              <a href="https://rgbcolorsgame.netlify.com/">RGB Color Game</a>
+              <a target="_blank"
+                rel="noopener noreferrer" href="https://rgbcolorsgame.netlify.com/">RGB Color Game</a>
             </h2>
           </header>
           <img src="/pictures/colorgame.png" alt="RGB Color Game" />
@@ -163,7 +174,8 @@ export default function Projects() {
           <header>
             <span className="date">December 2017</span>
             <h2>
-              <a href="https://etchasketchcolor.netlify.com/">
+              <a target="_blank"
+      rel="noopener noreferrer" href="https://etchasketchcolor.netlify.com/">
                 Etch-a-Sketch in Color
               </a>
             </h2>
@@ -179,7 +191,8 @@ export default function Projects() {
           <header>
             <span className="date">December 2017</span>
             <h2>
-              <a href="https://rockbeatsscissors.netlify.com/">
+              <a target="_blank"
+                rel="noopener noreferrer" href="https://rockbeatsscissors.netlify.com/">
                 Rock, Paper, Scissors!
               </a>
             </h2>

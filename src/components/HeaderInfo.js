@@ -36,7 +36,7 @@ export const icons = (
     <a
       target="_blank"
       rel="noopener noreferrer"
-      href="https://www.linkedin.com/in/caleb-redd-592423120/"
+      href="https://www.linkedin.com/in/caleb-redd/"
       className="icon alt fab fa-linkedin"
     >
       <nav-item />
