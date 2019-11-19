@@ -13,15 +13,14 @@ export default function Resume() {
         <section className="box professional-summary">
           <h3>Professional Summary</h3>
           <p>
-            Detail oriented software engineer with a high capacity to
+            Detail oriented Software Engineer with a high capacity to
             troubleshoot issues and ensure project completion.
           </p>
         </section>
         <section className="box skills-abilities">
-          <h3>Skills & Abilities</h3>
+          <h3>Character Strengths</h3>
           <ul>
-            <li>Can type an average of 80 words per minute</li>
-            <li>High customer service standards</li>
+            <li>High quality assurance standards</li>
             <li>Quick learner</li>
             <li>Dedicated to process improvement</li>
             <li>Strong problem solving ability</li>
@@ -47,82 +46,123 @@ export default function Resume() {
             <li>Mac</li>
           </ul>
         </section>
-        <section className="box accomplishments">
-          <h3>Accomplishments</h3>
-          <ul>
-            <li>Eagle Scout</li>
-            <li>Responsive Web Design Certificate from FreeCodeCamp.org</li>
-          </ul>
-        </section>
         <section className="box work-history">
           <h3>Work History</h3>
           <section className="job">
             <h4>
-              SALES DEVELOPMENT REPRESENTATIVE: APRIL 2019-PRESENT <br />
-              ACRONIS | TEMPE, AZ
+              INSIDE SOFTWARE SALES: 2019-PRESENT <br />
+              Acronis International Gmbh | TEMPE, AZ
             </h4>
             <ul>
-              <li>Contacted Leads and verified information</li>
-              <li>Determined qualification of leads</li>
               <li>
-                Verified what software and hardware environments clients were
-                working with to evaluate backup and recovery needs
+                Worked with MSPs and End Users to evaluate backup and recovery
+                needs for both Local and Cloud environments
               </li>
               <li>
-                Helped train other Sales Representatives in use of software
-                applications and software being sold
-              </li>
-              <li>Exceeded and met sales goal criteria</li>
-              <li>
-                Communicated with Sales Engineers regarding software and
-                hardware requirements of customers
+                Trained other Sales Representatives on software products being
+                sold
               </li>
               <li>
-                Worked with Outlook, Salesforce, Microsoft Office and other
-                software in Windows 10 to manage customer accounts
+                Worked with Outlook, Salesforce, Microsoft Office within Windows
+                10 to manage customer accounts and create custom reports from
+                database
               </li>
             </ul>
           </section>
           <section className="job">
             <h4>
-              DIGITAL MARKETING ASSOCIATE: JAN 2019-PRESENT
+              DIGITAL MARKETING ASSOCIATE: 2019-PRESENT
               <br />
-              JOINT VENTURES LLC | TEMPE, AZ
+              Joint Ventures LLC | TEMPE, AZ
             </h4>
             <ul>
-              <li>Responded to online reviews from customers</li>
-              <li>Managed online social media accounts</li>
               <li>
-                Emailed team members marketing updates and production results
+                Managed online social media accounts and responded to customer
+                reviews and concerns for over 45 locations
+              </li>
+              <li>
+                Emailed team members marketing updates and daily KPI reports
+                from database
               </li>
             </ul>
           </section>
           <section className="job">
             <h4>
-              SERVICE ADVISOR & SOCIAL MEDIA SPECIALIST: MAY 2017-DEC 2018
+              SERVICE ADVISOR & IT MANAGER: 2017-2018
               <br />
-              A&B MOTORS INC | COTTONWOOD, AZ
+              A&B Motors Inc | COTTONWOOD, AZ
             </h4>
             <ul>
               <li>
-                Received and worked with customers to resolveautomotive concerns
+                Managed online content for company website and social media
+                outlets
               </li>
-              <li>Scheduled appointments over the phone and inperson</li>
+              <li>
+                Managed various devices within the company including PCs,
+                tablets, printers and phones
+              </li>
+              <li>
+                Main point of contact for customers in an automotive service
+                environment throughout sales cycle
+              </li>
+              <li>
+                Scheduled appointments and managed information within customer
+                database
+              </li>
+
               <li>Ordered and stocked parts for various repairs</li>
-              <li>Performed light maintenance work and assistedtechnicians</li>
+              <li>Performed light maintenance work and assisted technicians</li>
               <li>Processed payments and transactions</li>
             </ul>
           </section>
         </section>
         <section className="box education">
           <h3>Education</h3>
-          <h4>LAMBDA SCHOOL​ | TEMPE, AZ | 2019-2020</h4>
-          <p>Full Stack Web Developer</p>
-          <h4>MESA COMMUNITY COLLEGE​ | MESA, AZ | 3.6 GPA 2015-2017</h4>
+          <h4>LAMBDA SCHOOL​ 2019-2020</h4>
+          <p>Full Stack Web Development</p>
+          <p>Topics Covered:</p>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS/Sass/LESS</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Python</li>
+            <li>Node</li>
+            <li>git</li>
+            <li>npm/Yarn</li>
+            <li>Express</li>
+            <li>RESTful APIs</li>
+            <li>SQL</li>
+            <li>Jest</li>
+            <li>Command Line</li>{" "}
+          </ul>
+          <p>
+            <a href="https://learn.lambdaschool.com/course/cs-fsw">
+              Curriculum overview
+            </a>
+          </p>
+          <h4>FreeCodeCamp.org 2018</h4>
+          <p>Responsive Web Design Certification</p>
+          <h4>MESA COMMUNITY COLLEGE​ 2015-2017</h4>
           <p>Associates in Applied Science</p>
+          <ul>
+            <li>3.7 GPA</li>
+            <li>Graduated with Honors</li>
+            <li>Honors Scholarship Holder</li>
+          </ul>
           <h4>
             SHADOW MOUNTAIN HIGH SCHOOL ​| PHOENIX, AZ | 3.6 GPA 2009-2012
           </h4>
+        </section>
+        <section className="box accomplishments">
+          <h3>Community Involvement & Skills</h3>
+          <ul>
+            <li>Freelance Web Developer for family/friends/SMBs</li>
+            <li>Event DJ running music software on a Linux Distro</li>
+            <li>Typing average of 80 words/minute</li>
+            <li>Eagle Scout</li>
+          </ul>
         </section>
       </div>
     </div>
