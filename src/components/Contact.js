@@ -15,7 +15,7 @@ export default function Contact() {
           <input required type="text" name="name" placeholder="Name" />
           <input type="text" name="company" placeholder="Company" />
           <input type="email" name="email" placeholder="Email" />
-          <input placeholder="Number" type="tel" name="phone" />
+          <input placeholder="Phone Number" type="tel" name="phone" />
           <textarea
             name="comments"
             cols="30"

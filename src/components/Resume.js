@@ -29,28 +29,44 @@ export default function Resume() {
         <section className="box languages">
           <h3>Familiar Languages, Frameworks, OS</h3>
           <ul className="frontend">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
+            <li>HTML/CSS/Javascript</li>
             <li>jQuery</li>
+            <li>Bootstrap</li>
             <li>React</li>
             <li>Less/Sass</li>
           </ul>
           <ul className="backend">
+            <li>MySQL/SQL</li>
+            <li>PHP</li>
             <li>Node</li>
             <li>Python</li>
             <li>MongoDB</li>
             <li>Express</li>
-            <li>Windows</li>
-            <li>Linux</li>
-            <li>Mac</li>
+            <li>Windows/Linux/Mac</li>
           </ul>
         </section>
         <section className="box work-history">
           <h3>Work History</h3>
           <section className="job">
             <h4>
-              INSIDE SOFTWARE SALES: 2019-PRESENT <br />
+              FULLSTACK SOFTWARE ENGINEER: 2020-PRESENT <br />
+              Scrapbook.com | GILBERT, AZ
+            </h4>
+            <ul>
+              <li>
+                Used PHP, SQL, MySQL and jQuery to develop business management software
+              </li>
+              <li>
+                Trained and mentored other developers on use of company processes and systems related to software and technology 
+              </li>
+              <li>
+                Helped maintain and manage deployments of code using Git and Slack automations
+              </li>
+            </ul>
+          </section>
+          <section className="job">
+            <h4>
+              INSIDE SOFTWARE SALES: 2019-2020 <br />
               Acronis International Gmbh | TEMPE, AZ
             </h4>
             <ul>
@@ -71,7 +87,7 @@ export default function Resume() {
           </section>
           <section className="job">
             <h4>
-              DIGITAL MARKETING ASSOCIATE: 2019-PRESENT
+              DIGITAL MARKETING ASSOCIATE: 2019-2020
               <br />
               Joint Ventures LLC | TEMPE, AZ
             </h4>
@@ -122,14 +138,14 @@ export default function Resume() {
           <p>Full Stack Web Development</p>
           <p>Topics Covered:</p>
           <ul>
-            <li>JavaScript</li>
             <li>HTML</li>
             <li>CSS/Sass/LESS</li>
+            <li>JavaScript</li>
             <li>React</li>
             <li>Redux</li>
             <li>Python</li>
             <li>Node</li>
-            <li>git</li>
+            <li>Git</li>
             <li>npm/Yarn</li>
             <li>Express</li>
             <li>RESTful APIs</li>
