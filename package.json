@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
     "node-sass": "^4.13.1",
@@ -30,5 +30,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Showcase for my devlopment projects",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [
+    "Software",
+    "Development",
+    "Full",
+    "Stack",
+    "Backend",
+    "Frontend",
+    "React",
+    "PHP",
+    "Node",
+    "JAVA"
+  ],
+  "author": "Caleb Redd",
+  "license": "ISC"
 }
