@@ -1,70 +1,73 @@
-.App {
+.app {
   text-align: center;
   width: 100vw;
 
-  @media screen and (max-width:700px) {
-    background: rgb(247, 192, 193);
-  }
 
-  .body-background {
-    background: #D12D32;
-    background-image: url("https://github.com/calebredd/Preprocessing-I/blob/master/pictures/AviatorCLub.jpg?raw=true");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .25;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: -1;
-
-    @media screen and (max-width:700px) {
-      display: none;
-    }
-  }
-
-  .App-header {
-    padding: 10px;
-    background-color: #282c34;
+  .app-header {
+    position:sticky;
+    top:0;
+    padding: 15px 15% 15px 3%;
+    background-color: #fff;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: #444;
+    width:100%;
+    font-weight:600;
+    @media screen and (max-width:750px) {
+        padding:15px;
+    }
 
     .navbar {
       width: 100%;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: flex-end;
+      gap:50px;
+      padding:0 20px;
+      flex:1;
       align-items: center;
       margin: 15px auto;
+      
+      @media screen and (max-width:750px) {
+        display:none;
+      }
 
       a {
-        text-decoration: none;
-        color: white;
-
         .navItem {
           &:hover {
-            color: cyan;
+            color: #333;
             text-shadow: 0px 0px 4px white;
           }
         }
       }
     }
+
+    .logoTitle{
+        display:flex;
+        align-items:center;
+        gap:10px;
+        text-wrap:nowrap;
+        font-weight:700;
+        flex:2;
+
+    }
+  }
+
+  .filler{
+    min-height:100px;
+  }
+  .section{
+    padding-top:20px;
+    margin-top:20px;
   }
 
   .familyPhoto {
-    width: 90%;
-    height: auto;
-    margin: 10px auto;
-    border-radius: 3px;
-    border: 2px solid black;
-
-    @media screen and (min-width:701px) {
-      display: none;
-    }
-
-
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    object-fit:cover;
+    border: 2px solid #333;
   }
 
   .center {
@@ -73,7 +76,7 @@
     font-weight: bolder;
     text-align: center;
     vertical-align: center;
-    color: #282c34;
+    color: #444;
 
     @media screen and (max-width:700px) {
       font-size: 1.5rem;
@@ -83,9 +86,11 @@
     }
   }
 
-  .main-content {
-    width: 90%;
-    margin: 20px auto;
+  .main-content{
+    padding:25px 10px;
+    width:100%;
+    background:#f1f1f1;
+    width: 100%;
   }
 
   .main-content article header {
@@ -93,11 +98,6 @@
     justify-content: space-between;
     align-items: center;
     margin: 10px;
-  }
-
-  .main-content article {
-    box-shadow: 0px 0px 10px black;
-
   }
 
   .main-content article,
@@ -108,13 +108,12 @@
   }
 
   .main-content article a {
-    text-decoration: none;
-    color: black;
+    color: #444;
     text-decoration-line: underline;
   }
 
   .main-content article a:hover {
-    color: #D12D32;
+    color: #333;
     ;
   }
 

@@ -1,23 +1,28 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import {Link} from "react-scroll";
 export default function Navbar() {
   return (
-    <div className="navbar">
-      <NavLink to="/">
-        <div className="navItem">Home</div>
-      </NavLink>
-      <NavLink to="/Projects">
-        <div className="navItem">Projects</div>
-      </NavLink>
-      <NavLink to="/Resume">
-        <div className="navItem">Resumé</div>
-      </NavLink>
-      <NavLink to="/About">
-        <div className="navItem">About</div>
-      </NavLink>
-      <NavLink to="/Contact">
-        <div className="navItem">Contact</div>
-      </NavLink>
-    </div>
+    <header className="app-header">
+        <Link to="home" smooth={true} duration={500}>
+            <div className="navItem logoTitle">
+                <img className="familyPhoto" src="pictures/Caleb_Mugshot.png" alt="Caleb Redd Portrait"/>
+                <span>Caleb Redd</span>
+            </div>
+        </Link>
+        <div className="navbar">
+            <Link to="home" smooth={true} duration={500}>
+                <div className="navItem">Home</div>
+            </Link>
+            <Link to="about" smooth={true} duration={500}>
+                <div className="navItem">About</div>
+            </Link>
+            <Link to="projects" smooth={true} duration={500}>
+                <div className="navItem">Projects</div>
+            </Link>
+            <Link to="contact" smooth={true} duration={500}>
+                <div className="navItem">Contact</div>
+            </Link>
+        </div>
+    </header>
   );
 }

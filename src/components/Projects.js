@@ -1,15 +1,12 @@
 import React from "react";
-import { contact, icons } from "./HeaderInfo";
 import "../Projects.scss";
 export default function Projects() {
   return (
-    <div className="container">
+    <div className="section">
       <section className="contact-info">
-        {contact}
         <h2 className="center">Projects</h2>
-        {icons}
       </section>
-      <div className="main-content">
+      <div className="container">
         <article>
           <header>
             <span className="date">November 2019</span>
