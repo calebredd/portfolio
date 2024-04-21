@@ -1,203 +1,180 @@
-import React from "react";
+import React, { Component } from "react";
 import "../Projects.scss";
-export default function Projects() {
-  return (
-    <div className="section">
-      <section className="contact-info">
-        <h2 className="center">Projects</h2>
-      </section>
-      <div className="container">
-        <article>
-          <header>
-            <span className="date">November 2019</span>
-            <h2>
-              <a target="_blank"
-                rel="noopener noreferrer" href="https://thecarlot.herokuapp.com/">Car Lot App</a>
-            </h2>
-          </header>
-          <img src="/pictures/carLotApp.png" alt="Potluck Planner" />
-          <p>
-            Fullstack Web App where users can upload cars for sale.
-          </p>
-          <p>Developed with: Node, Express, React, SQL</p>
-        </article>
-        <article>
-          <header>
-            <span className="date">October 2019</span>
-            <h2>
-              <a target="_blank"
-                rel="noopener noreferrer" href="https://potluckplan.netlify.com/">Potluck Planner App</a>
-            </h2>
-          </header>
-          <img src="/pictures/PotluckPlanner.png" alt="Potluck Planner" />
-          <p>
-            Collaborated project where users can plan and attend Potluck dinners
-            to share food and company among other food enthusiasts.
-          </p>
-          <p>Developed with: React, Sass</p>
-        </article>
-        <article>
-          <header>
-            <span className="date">October 2019</span>
-            <h2>
-              <a target="_blank"
-                rel="noopener noreferrer" href="https://1111waxstudioandspa.netlify.com/">
-                11:11 Wax Studio & Spa
-              </a>
-            </h2>
-          </header>
-          <img src="/pictures/1111WaxStudio.png" alt="11:11" />
-          <p>Static website created for a local spa studio in Phoenix, AZ.</p>
-          <p>Developed with: React, Sass</p>
-        </article>
-        <article>
-          <header>
-            <span className="date">September 2019</span>
-            <h2>
-              <a target="_blank"
-                rel="noopener noreferrer" href="https://mlbtracker.netlify.com/">
-                Baseball Game Tracker
-              </a>
-            </h2>
-          </header>
-          <img src="/pictures/MLBSuperFans.png" alt="MLB Super Fans" />
-          <p>
-            App for avid baseball fans to be their own umpire and keep track of
-            the game themselves.
-          </p>
-          <p>Developed with: React, Sass</p>
-        </article>
-        <article>
-          <header>
-            <span className="date">August 2019</span>
-            <h2>
-              <a target="_blank"
-                rel="noopener noreferrer" href="https://haircareapp.netlify.com/">Hair Care App</a>
-            </h2>
-          </header>
-          <img src="/pictures/HairCareApp.png" alt="Hair Care" />
-          <p>
-            Collaborated project where users can create a profile and find a
-            hairstylist for their next treatment.
-          </p>
-          <p>Developed with: React, Sass</p>
-        </article>
-        <article>
-          <header>
-            <span className="date">June 2019</span>
-            <h2>
-              <a target="_blank"
-      rel="noopener noreferrer" href="https://collegecalculator.netlify.com">
-                College Calculator
-              </a>
-            </h2>
-          </header>
-          <img src="/pictures/CollegeCalc.png" alt="College Calculator" />
-          <p>
-            Collaborated project where users can evaluate the Cost of Secondary
-            Education.
-          </p>
-          <p>Developed with: Javascript, HTML, Less</p>
-        </article>
-        <article>
-          <header>
-            <span className="date">May 2019</span>
-            <h2>
-              <a target="_blank"
-                rel="noopener noreferrer" href="https://lambdaui.netlify.com/">HTML/CSS Timed Project</a>
-            </h2>
-          </header>
-          <img src="/pictures/TimedProject.png" alt="Time Project" />
-          <p>HTML/CSS Project completed within 3 hour time limit.</p>
-        </article>
-        <article>
-          <header>
-            <span className="date">April 2019</span>
-            <h2>
-              <a target="_blank"
-                rel="noopener noreferrer" href="https://calebredd.github.io/Preprocessing-II/">
-                Less Compiled Project
-              </a>
-            </h2>
-          </header>
-          <img src="/pictures/PreCompiled.png" alt="Pre-Compiled" />
-          <p>Project that incorporated Pre-compilers.</p>
-        </article>
-        <article>
-          <header>
-            <span className="date">April 2019</span>
-            <h2>
-              <a target="_blank"
-                rel="noopener noreferrer" href="https://calebredd.github.io/responsive-web-design-I/index.html">
-                Responsive Web Design
-              </a>
-            </h2>
-          </header>
-          <img src="/pictures/Responsive.png" alt="Responsive" />
-          <p>Project with mobile friendly implementation.</p>
-        </article>
-        <article>
-          <header>
-            <span className="date">January 2019</span>
-            <h2>
-              <a target="_blank"
-                rel="noopener noreferrer" href="https://caleb-yelpcamp-app.herokuapp.com/campgrounds">
-                YelpCamp App
-              </a>
-            </h2>
-          </header>
-          <img src="/pictures/YelpCamp.png" alt="YelpCamp App" />
-          <p>
-            Enables users to add campsites they've visited and share with other
-            outdoor enthusiasts.
-          </p>
-          <p>Developed with: MongoDB, Express, Node</p>
-        </article>
-        <article>
-          <header>
-            <span className="date">November 2018</span>
-            <h2>
-              <a target="_blank"
-                rel="noopener noreferrer" href="https://rgbcolorsgame.netlify.com/">RGB Color Game</a>
-            </h2>
-          </header>
-          <img src="/pictures/colorgame.png" alt="RGB Color Game" />
-          <p>
-            Pick among colored squares to guess what the RGB Color value is.
-          </p>
-          <p>Developed with: Javascript, HTML, CSS</p>
-        </article>
-        <article>
-          <header>
-            <span className="date">December 2017</span>
-            <h2>
-              <a target="_blank"
-      rel="noopener noreferrer" href="https://etchasketchcolor.netlify.com/">
-                Etch-a-Sketch in Color
-              </a>
-            </h2>
-          </header>
-          <img src="/pictures/draw.png" alt="Etch-a-sketch" />
-          <p>
-            Choose a color, move to draw, click to change colors, rinse &
-            repeat.
-          </p>
-          <p>Developed with: Javascript, HTML, CSS</p>
-        </article>
-        <article>
-          <header>
-            <span className="date">December 2017</span>
-            <h2>
-              <a target="_blank"
-                rel="noopener noreferrer" href="https://rockbeatsscissors.netlify.com/">
-                Rock, Paper, Scissors!
-              </a>
-            </h2>
-          </header>
-          <img src="/pictures/RockPaperScissors.png" alt="Rock Paper Scissors" />
-          <p>Risk it all against the Computer, first one to 3 wins!</p>
-        </article>
-      </div>
-    </div>
-  );
+
+const projList = [
+    {
+        'title':'Scrapbook.com',
+        'date':'February 2020-Present',
+        'url':'https://www.scrapbook.com/',
+        'img':'sbcStore.png',
+        'description':'eCommerce platform for all things Paper Crafting',
+        'skills':['PHP','SQL/MySQL', 'RESTful API', 'jQuery','HTML/CSS/JS']
+    },
+    {
+        'title':'Game Of Life',
+        'date':'June 2020',
+        'url':'https://calebredd.github.io/Game-Of-Life/src', 
+        'img':'gameOfLife.png',
+        'description':'Computer Science simulation challenge based on John Conway\'s 1968 two-dimensional cellular automaton rules.',
+        'skills':['HTML/CSS/JS']
+    },
+    {
+        'title':'Car Lot App',
+        'date':'November 2019',
+        'url':'',
+        // 'url':'https://thecarlot.herokuapp.com/', // Heroku killed the domain
+        'img':'carLotApp.png',
+        'description':'Fullstack Web App where users can upload cars for sale.',
+        'skills':['Node','Express','React','SQL']
+    },
+    {
+        'title':'Potluck Planner',
+        'date':'October 2019',
+        'url':'https://potluckplan.netlify.com', // However, Heroku killed the backend API
+        'img':'PotluckPLanner.png',
+        'description':'Collaborated project where users can plan and attend Potluck dinners to share food and company among other food enthusiasts.',
+        'skills':['React', 'Sass', 'RESTful API']
+    },
+    {
+        'title':'11:11 Wax Studio & Spa',
+        'date':'October 2019',
+        'url':'https://1111waxstudioandspa.netlify.com',
+        'img':'1111WaxStudio.png',
+        'description':'Static website created for a local spa studio in Phoenix, AZ.',
+        'skills':['React', 'Sass', 'Squarespace']
+    },
+    {
+        'title':'Baseball Game Tracker',
+        'date':'September 2019',
+        'url':'https://mlbtracker.netlify.com',
+        'img':'MLBSuperFans.png',
+        'description':'App for avid baseball fans to be their own umpire and keep track of the game themselves.',
+        'skills':['React','Sass']
+    },
+    {
+        'title':'Dad Joke Generator',
+        'date':'September 2019',
+        'url':'https://dadjoke.netlify.app/',
+        'img':'dadJokes.png',
+        'description':'When you need a laugh and a dad is not available, come on by.',
+        'skills':['API', 'React','Sass']
+    },
+    {
+        'title':'Hair Care App',
+        'date':'August 2019',
+        'url':'https://pwhaircare.netlify.com',
+        'img':'HairCareApp.png',
+        'description':'Collaborated project where users can create a profile and find a hairstylist for their next treatment.',
+        'skills':['React','Sass']
+    },
+    {
+        'title':'College Calculator',
+        'date':'June 2019',
+        'url':'https://collegecalculator.netlify.com',
+        'img':'CollegeCalc.png',
+        'description':'Collaborated project where users can evaluate the Cost of Secondary Education.',
+        'skills':['Javascript','HTML','Less']
+    },
+    {
+        'title':'HTML/CSS Timed Project',
+        'date':'May 2019',
+        'url':'https://lambdaui.netlify.com',
+        'img':'TimedProject.png',
+        'description':'HTML/CSS Project completed within 3 hour time limit.',
+        'skills':['HTML','CSS']
+    },
+    {
+        'title':'Less Compiled Project',
+        'date':'April 2019',
+        'url':'https://calebredd.github.io/Preprocessing-II',
+        'img':'PreCompiled.png',
+        'description':'Project that incorporated Pre-compilers.',
+        'skills':[]
+    },
+    {
+        'title':'Responsive Web Design',
+        'date':'April 2019',
+        'url':'https://calebredd.github.io/responsive-web-design-I',
+        'img':'Responsive.png',
+        'description':'Project with mobile friendly implementation.',
+        'skills':[]
+    },
+    {
+        'title':'YelpCamp App',
+        'date':'January 2019',
+        'url':'',
+        // 'url':'https://caleb-yelpcamp-app.herokuapp.com/campgraounds', // Heroku killed the account
+        'img':'YelpCamp.png',
+        'description':'Enables users to add campsites they\'ve visited and share with other outdoor enthusiasts.',
+        'skills':['MondgoDB','Express','Node']
+    },
+    {
+        'title':'RGB Color Game',
+        'date':'November 2018',
+        'url':'https://rgbcolorsgame.netlify.com',
+        'img':'colorgame.png',
+        'description':'Pick among colored squares to guess what the RGB Color value is.',
+        'skills':['Javascript','HTML','CSS']
+    },
+    {
+        'title':'Etch-a-Sketch in Color',
+        'date':'December 2017',
+        'url':'https://etchasketchcolor.netlify.com',
+        'img':'draw.png',
+        'description':'Choose a color, move to draw, click to change colors, rinse & repeat.',
+        'skills':['Javascript','HTML','CSS']
+    },
+    {
+        'title':'Rock, Paper, Scissors!',
+        'date':'December 2017',
+        'url':'https://rockbeatsscissors.netlify.com',
+        'img':'RockPaperScissor.png',
+        'description':'Risk it all against the Computer, first one to 3 wins!',
+        'skills':['Javascript','HTML','CSS']
+    },
+];
+
+export default class Projects extends Component { 
+    render() {
+        const showSkill = (skill) => {
+            return (
+                <p>
+                    {skill}
+                </p>
+            )
+        }
+
+        const showProj = projList.map((proj)=>{
+            return (
+                <article>
+                    <header>
+                        <span className="date">{proj.date}</span>
+                        <h2>
+                            {(proj.url.length > 0) ? (
+                            <a target="_blank" rel="noopener noreferrer" href={proj.url}>{proj.title}</a>
+                            ) : (proj.title) 
+                            }
+                        </h2>
+                    </header>
+                    <img src={"/pictures/"+proj.img} alt={proj.title} />
+                    <p>
+                        {proj.description}
+                    </p>
+                    {proj.skills.map((skill)=>showSkill(skill))}
+                </article>
+            )
+        });
+
+        return (
+            <div id="projects" className="section">
+            <section className="contact-info">
+                <h2 className="center">Projects</h2>
+            </section>
+            <div className="container">
+                {showProj}
+            </div>
+            </div>
+        );
+
+    }
 }

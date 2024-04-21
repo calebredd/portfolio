@@ -2,7 +2,7 @@ import React from "react";
 import "../Contact.scss";
 export default function Contact() {
   return (
-    <div className="section">
+    <div id="contact" className="section">
       <section className="contact-info">
         <h2 className="center">Contact Me</h2>
       </section>
