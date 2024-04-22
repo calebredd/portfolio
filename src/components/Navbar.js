@@ -52,19 +52,21 @@ export default class Navbar extends Component{
                         <div className="navItem">Contact</div>
                     </a>
                 </div>
-                <div className="mobile-navbar">
-                    <a href="#home">
-                        <div className="navItem">Home</div>
-                    </a>
-                    <a href="#about">
-                        <div className="navItem">About</div>
-                    </a>
-                    <a href="#projects">
-                        <div className="navItem">Projects</div>
-                    </a>
-                    <a href="#contact">
-                        <div className="navItem">Contact</div>
-                    </a>
+                <div className="mobile-navbar-wrapper">
+                    <div className="mobile-navbar">
+                        <a href="#home">
+                            <div className="navItem">Home</div>
+                        </a>
+                        <a href="#about">
+                            <div className="navItem">About</div>
+                        </a>
+                        <a href="#projects">
+                            <div className="navItem">Projects</div>
+                        </a>
+                        <a href="#contact">
+                            <div className="navItem">Contact</div>
+                        </a>
+                    </div>
                 </div>
             </header>
         )

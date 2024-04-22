@@ -1,3 +1,24 @@
+.container.bio{
+    padding:20px 30px;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    max-width:80%;
+    margin:0 auto;
+}
+
+.bio-skills-container{
+    display:flex;
+    gap:30px;
+    flex-direction:column;
+}
+
+.bio-paragraph{
+    text-align: left;
+    line-height:35px;
+    font-size:1.5rem;
+}
 .box {
   background: lightgray;
   border: solid 3px #444;

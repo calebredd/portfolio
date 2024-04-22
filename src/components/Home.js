@@ -1,15 +1,27 @@
 import React from "react";
 export default function Home() {
   return (
-    <div>
-        <div id="home" className="section">
+    <section id="home">
         <h1>
-            Hello, I am<br/>Caleb Redd
+            <span className="desktop">
+                Hello, I am
+            </span>
+            <span className="tablet">
+                Hey, I am
+            </span>
+            <span className="mobile">
+                Hi, I'm
+            </span>
+            <span>Caleb Redd</span>
         </h1>
-        <section className="contact-info">
-            <h2 className="center">Software Engineer</h2>
-        </section>
+        <div className="power-statement">
+            <p className="center">An experienced Full Stack Developer with a passion for creating innovative solutions seeking to help scale your product into the future</p>
         </div>
-    </div>
+        <div>
+            <a href="#projects">
+                <button className="cta-btn">Projects</button>
+            </a>
+        </div>
+    </section>
   );
 }

@@ -1,6 +1,7 @@
 footer {
-  background: #282c34;
-  padding:100px 50px;
+    background: #482338;
+    padding:100px 50px;
+    margin-top:200px;
 }
 
 footer nav,
@@ -29,13 +30,13 @@ footer .copyright {
 }
 
 footer nav .icon {
-  text-decoration: none;
-  font-size: 30px;
-  border-radius: 20px;
-  color: white;
-  // background: lightgray;
-}
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 20px;
+    color: white;
+    // background: lightgray;
 
-footer nav .icon:hover {
-  color: gray;
+    &:hover {
+        color: #8e5b79;
+    }
 }
