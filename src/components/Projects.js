@@ -151,7 +151,7 @@ export default class Projects extends Component {
                         <h2>
                             {(proj.url.length > 0) ? (
                             <a target="_blank" rel="noopener noreferrer" href={proj.url}>{proj.title}</a>
-                            ) : (proj.title) 
+                            ) : (<span className="disabled">{proj.title}</span>) 
                             }
                         </h2>
                         <span className="date">{proj.date}</span>
@@ -169,7 +169,7 @@ export default class Projects extends Component {
                                         View Project Site <i className="fa fa-external-link"></i>
                                     </a>
                                 ) : (
-                                    '***Live Site Deprecated***'
+                                    <span className="deprecated-warning">***Live Site Deprecated***</span>
                                 )}
                             </div>
                             <p className="description">

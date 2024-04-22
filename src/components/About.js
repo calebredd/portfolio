@@ -41,9 +41,21 @@ export default function About() {
                     I am currently finishing up my Bachelor's Degree in Software Development with Grand Canyon University and am looking for my next chapter in my Dev career.
                 </p>
                 <div className="left">
-                    <a href="#contact">
-                        <button className="cta-btn cta-slim">Contact</button>
-                    </a>
+                    <div className="about-ctas-container">
+                        <a href="#contact">
+                            <button className="cta-btn cta-slim">Contact</button>
+                        </a>
+                        <div className="ctas-resume-wrapper">
+                            Looking for my resume? 
+                            <a href="CalebReddResume.pdf" download>
+                                Download
+                            </a>
+                            <span>or</span>
+                            <a target="_blank" rel="noopener noreferrer" href="CalebReddResume.pdf">
+                                Print
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div className="bio-skills-container">
                     <h3 className="bio-skills-title left">My Skills</h3>
