@@ -4,7 +4,7 @@ export default class Navbar extends Component{
 
     componentDidMount(){
         $(document).on('keydown', function(e){
-            if(e.key == 'Escape') hideMenu();
+            if(e.key === 'Escape') hideMenu();
         });
         $('.mobile-hamburger, .mobile-navbar a').on('click',function(e){
             e.stopPropagation();
