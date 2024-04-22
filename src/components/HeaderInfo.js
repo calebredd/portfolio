@@ -2,13 +2,6 @@ import React from "react";
 import "../HeaderInfo.scss";
 export const contact = (
   <div className="contact">
-    <div className="left-header">
-      <img
-        id="Redd-in-Red"
-        src="pictures/ReddFamilyinRed.jpg"
-        alt="We love the color Red!"
-      />
-    </div>
     <div className="right-header">
       <address>
         Tempe, AZ 85282

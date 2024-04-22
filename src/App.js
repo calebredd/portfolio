@@ -1,22 +1,31 @@
-import React from "react";
+import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Routes from "./components/Routes";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
-import "./App.scss";
+class App extends Component{
+    render() {
+        const mainContentStyle = {
+            backgroundImage: 'url(pictures/geode.png)'
+        };
 
-function App() {
-  return (
-    <div className="App">
-    <div className="body-background"></div>
-      <header className="App-header">
-        <h1>Caleb Redd Portfolio</h1>
-        <Navbar />
-      </header>
-      <Routes />
-      <Footer />
-    </div>
-  );
+        return (
+            <div className="app">
+                <Navbar/>
+                <div className="main-content">
+                    <div className="background-container" style={mainContentStyle}></div>
+                    <Home/>
+                    <About/>
+                    <Projects/>
+                    <Contact/>
+                </div>
+                <Footer />
+            </div>
+        );
+    }
 }
 
 export default App;

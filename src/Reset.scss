@@ -83,7 +83,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -136,7 +135,7 @@ body {
 
 
 h1 {
-  font-size: 35px;
+  font-size: calc(35px + 3rem);
   font-weight: bolder;
 }
 
@@ -157,4 +156,17 @@ h4 {
 
 p {
   font-size: 18px;
+}
+
+a{
+    text-decoration:none;
+    scroll-behavior:smooth;
+    color:#444;
+    &:hover{
+        cursor:pointer;
+        color: #683e57;
+    }
+    &:visited{
+        text-decoration:none;
+    }
 }

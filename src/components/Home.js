@@ -1,18 +1,27 @@
 import React from "react";
-import { contact, icons } from "./HeaderInfo";
 export default function Home() {
   return (
-    <div className="container">
-      <section className="contact-info">
-        {contact}
-        <h2 className="center">Software Engineer</h2>
-        {icons}
-      </section>
-      <img
-        className="familyPhoto"
-        src="pictures/ReddFamilyinRed.jpg"
-        alt="We love the color Red!"
-      />
-    </div>
+    <section id="home">
+        <h1>
+            <span className="desktop">
+                Hello, I am
+            </span>
+            <span className="tablet">
+                Hey, I am
+            </span>
+            <span className="mobile">
+                Hi, I'm
+            </span>
+            <span>Caleb Redd</span>
+        </h1>
+        <div className="power-statement">
+            <p className="center">An experienced Full Stack Developer with a passion for creating innovative solutions seeking to help scale your product into the future</p>
+        </div>
+        <div>
+            <a href="#projects">
+                <button className="cta-btn">Projects</button>
+            </a>
+        </div>
+    </section>
   );
 }
